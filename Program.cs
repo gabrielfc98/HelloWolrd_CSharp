@@ -22,7 +22,7 @@ namespace HelloWorld
             //Lendo um int e imprimindo o resultado na tela
 
             Console.Write("Digite a sua idade: ");
-            var idade = int.Parse( Console.ReadLine() );
+            var idade = int.Parse(Console.ReadLine());
             Console.WriteLine($"Para ler números inteiros é preciso usar a função int.Parse. A idade digitada foi: {idade}");
 
             //Lendo um double e imprimindo o resultado na tela
@@ -33,9 +33,5 @@ namespace HelloWorld
 
         }
     }
-
-       
-
-
-    }
+}
 
